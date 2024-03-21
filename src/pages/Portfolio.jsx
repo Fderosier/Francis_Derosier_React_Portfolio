@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from "../components/Project.jsx"
 import cocktailFinder from '../../assets/cocktail_finder.png';
-import LiteraryVoyager from '../../assets/LiteraryVoyagers.png';
+import LiteraryVoyager from '../../assets/LiteraryVoyagers .png';
 import codingQuiz from '../../assets/coding_quiz.png';
 import passwordGenerator from '../../assets/password_generator.png';
 import noteTaker from '../../assets/note_taker.png';
@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className="col-md-4 col-sm-12">
           <Project
             deploy="https://literary-voyagers-5d41db9d0f86.herokuapp.com/"
-            img={LiteraryVoyager}
+            img={LiteraryVoyagers .png}
             alt="Screenshot of the Literary Voyager application"
             title="Literary Voyager"
             repo="https://github.com/sambrez/Literary-Voyagers"

@@ -1,4 +1,4 @@
-import profilePic from "../../assets/frankie selfie.png";
+import profilePic from "../../assets/frankieselfie.PNG";
 
 //This is the about page which sources the html for the about page
 export default function AboutPage() {
@@ -7,7 +7,7 @@ export default function AboutPage() {
             <h2 className="contentHeader w-100">About</h2>
             <section className="about row">
 
-                <img src={profilePic} className=" col w-50 d-flex flex-wrap imgshadow " alt="Frankie selfie.png" />
+                <img src={profilePic} className=" col w-50 d-flex flex-wrap imgshadow " alt="frankieselfie.PNG" />
                 <section className="col">
 
                     <div>
@@ -19,12 +19,8 @@ export default function AboutPage() {
                         <p> Once graduated Francis plans to pursing his goal of becoming a software engineer</p>
                     </div>
                     <div>
-                        <h3>Today:</h3>
-                        <p>.</p>
-                    </div>
-                    <div>
-                        <h3>Changing Course:</h3>
-                        <p> </p>
+                        <h3>Hobbies:</h3>
+                        <p></p>
                     </div>
                 </section>
             </section>
